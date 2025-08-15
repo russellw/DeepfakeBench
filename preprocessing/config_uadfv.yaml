@@ -1,0 +1,13 @@
+preprocess:
+  dataset_name: 'UADFV'
+  dataset_root_path: 'C:\DeepfakeBench\datasets\UADFV'
+  comp: 'raw'
+  mode: 'fixed_num_frames'
+  stride: 10
+  num_frames: 32
+
+rearrange:
+  dataset_name: 'UADFV'
+  dataset_root_path: 'C:\DeepfakeBench\datasets\UADFV_processed'
+  output_file_path: 'C:\DeepfakeBench\preprocessing\dataset_json'
+  comp: 'raw'
