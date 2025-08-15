@@ -17,7 +17,7 @@ REM Set the path to your DeepfakeBench installation
 set DEEPFAKEBENCH_PATH=C:\DeepfakeBench
 
 REM Set the path to your UADFV dataset (where you extracted the raw UADFV data)
-set UADFV_DATA_PATH=C:\datasets\UADFV
+set UADFV_DATA_PATH=C:\DeepfakeBench\datasets\UADFV
 
 REM Set the output path for processed data
 set OUTPUT_PATH=%UADFV_DATA_PATH%_processed
