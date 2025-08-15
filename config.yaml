@@ -1,0 +1,13 @@
+preprocess:
+  dataset_name:
+    default: UADFV            # <- must be exactly one of: FaceForensics++, Celeb-DF-v1, Celeb-DF-v2, DFDCP, DFDC, DeeperForensics-1.0, UADFV
+  dataset_root_path:
+    default: C:/DeepfakeBench/datasets/raw    # <- change this to the parent folder that contains the UADFV directory
+  comp:
+    default: c23              # <- only used by FaceForensics++; harmless for UADFV
+  mode:
+    default: fixed_stride     # options: fixed_stride | fixed_num_frames
+  stride:
+    default: 10               # used when mode == fixed_stride (grab every 10th frame)
+  num_frames:
+    default: 64               # used when mode == fixed_num_frames
