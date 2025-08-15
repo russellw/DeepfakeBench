@@ -16,8 +16,8 @@ REM ============================================================================
 REM Set the path to your DeepfakeBench installation
 set DEEPFAKEBENCH_PATH=C:\DeepfakeBench
 
-REM Set the path to your UADFV dataset (where you extracted the raw UADFV data)
-set UADFV_DATA_PATH=C:\DeepfakeBench\datasets\UADFV
+REM Set the path to your UADFV dataset (within DeepfakeBench datasets directory)
+set UADFV_DATA_PATH=%DEEPFAKEBENCH_PATH%\datasets\UADFV
 
 REM Set the output path for processed data
 set OUTPUT_PATH=%UADFV_DATA_PATH%_processed
@@ -140,7 +140,7 @@ echo   num_frames: 32
 echo.
 echo rearrange:
 echo   dataset_name: 'UADFV'
-echo   dataset_root_path: '%OUTPUT_PATH%'
+echo   dataset_root_path: '%UADFV_DATA_PATH%'
 echo   output_file_path: '%DEEPFAKEBENCH_PATH%\preprocessing\dataset_json'
 echo   comp: 'raw'
 ) > "%DEEPFAKEBENCH_PATH%\preprocessing\config_uadfv.yaml"
