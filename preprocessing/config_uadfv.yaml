@@ -8,6 +8,6 @@ preprocess:
 
 rearrange:
   dataset_name: 'UADFV'
-  dataset_root_path: 'C:\DeepfakeBench\datasets\UADFV_processed'
+  dataset_root_path: 'C:\DeepfakeBench\datasets\UADFV'
   output_file_path: 'C:\DeepfakeBench\preprocessing\dataset_json'
   comp: 'raw'
