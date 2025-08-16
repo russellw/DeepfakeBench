@@ -9,4 +9,4 @@ call conda install -y -c conda-forge numpy
 call conda install -y -c conda-forge opencv
 call conda install -y -c conda-forge pyyaml tqdm Pillow scikit-learn scikit-image albumentations dlib matplotlib imgaug python-lmdb
 call conda install -y -c conda-forge "einops<=0.6.1"
-call conda install -y -c conda-forge tensorboard simplejson fvcore iopath
+call conda install -y -c conda-forge tensorboard simplejson fvcore iopath efficientnet-pytorch
