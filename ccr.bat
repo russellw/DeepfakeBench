@@ -10,3 +10,5 @@ call conda install -y -c conda-forge opencv
 call conda install -y -c conda-forge pyyaml tqdm Pillow scikit-learn scikit-image albumentations dlib matplotlib imgaug python-lmdb
 call conda install -y -c conda-forge "einops<=0.6.1"
 call conda install -y -c conda-forge tensorboard simplejson fvcore iopath efficientnet-pytorch
+call conda install -y -c conda-forge "kornia<0.7"
+call conda install -y -c conda-forge timm
