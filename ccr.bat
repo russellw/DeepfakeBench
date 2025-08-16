@@ -8,4 +8,4 @@ call conda install -y -c conda-forge opencv ffmpeg
 call conda install -y -c conda-forge numpy
 call conda install -y -c conda-forge opencv
 call conda install -y -c conda-forge pyyaml tqdm Pillow scikit-learn scikit-image albumentations dlib matplotlib imgaug python-lmdb
-call conda install -y -c conda-forge einops
+call conda install -y -c conda-forge "einops<=0.6.1"
