@@ -7,4 +7,4 @@ call conda install -y -c pytorch -c conda-forge pytorch=1.12.1 torchvision=0.13.
 call conda install -y -c conda-forge opencv ffmpeg
 call conda install -y -c conda-forge numpy
 call conda install -y -c conda-forge opencv
-call conda install -y -c conda-forge pyyaml tqdm Pillow scikit-learn scikit-image albumentations
+call conda install -y -c conda-forge pyyaml tqdm Pillow scikit-learn scikit-image albumentations dlib matplotlib imgaug
