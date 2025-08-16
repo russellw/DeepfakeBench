@@ -1,0 +1,5 @@
+C:\Users\russe\anaconda3\envs\DeepfakeBench\Lib\site-packages\cv2\cv2.pyd
+C:\Users\russe\anaconda3\envs\dfb\Lib\site-packages\cv2.pyd
+C:\Users\russe\anaconda3\envs\dfba\Lib\site-packages\cv2.pyd
+C:\Users\russe\anaconda3\pkgs\libopencv-4.6.0-py37hefdbd86_5\Lib\site-packages\cv2.pyd
+C:\Users\russe\anaconda3\pkgs\opencv-4.6.0-py37hf11a4ad_3\Lib\site-packages\cv2.pyd
