@@ -1,8 +1,8 @@
 mode: test
 lmdb: False
-rgb_dir: "\DeepfakeBench"                  # the folder that CONTAINS 'datasets'
+rgb_dir: "\\DeepfakeBench"                  # the folder that CONTAINS 'datasets'
 lmdb_dir: "/DeepfakeBench/datasets/lmdb"   # only if you use LMDB; otherwise ok to leave as-is
-dataset_json_folder: "\DeepfakeBench/preprocessing/dataset_json"
+dataset_json_folder: "\\DeepfakeBench/preprocessing/dataset_json"
 
 label_dict:
   # DFD
