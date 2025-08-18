@@ -137,6 +137,13 @@ def test_epoch(model, test_data_loaders):
         for k, v in metric_one_dataset.items():
             tqdm.write(f"{k}: {v}")
 
+    with open('results.txt', "a") as f:
+                for dataset_name, metrics in metrics_all_datasets.items():
+                    f.write(f"dataset: {dataset_name}\n")
+                    for k, v in metrics.items():
+                        f.write(f"{k}: {v}\n")
+                    f.write("\n")
+                
     return metrics_all_datasets
 
 @torch.no_grad()
